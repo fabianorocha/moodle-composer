@@ -76,7 +76,7 @@
   ],
   "require": {
     "andrewnicols/moodle-atto_fontsize": "dev-master",
-    "moodleuulm/moodle-atto_styles": "dev-master#6f8c11f",
+    "moodleuulm/moodle-atto_styles": "dev-master#21dff25",
     "ndunand/moodle-atto_morebackcolors": "dev-master",
     "ndunand/moodle-tool_mergeusers": "dev-master",
     "syxton/moodle-tool_coursearchiver": "dev-master",
@@ -85,19 +85,21 @@
     "aspiredu/moodle-local_aspiredu": "dev-master",
     "marceloschmitt/moodle-block_analytics_graphs": "dev-4.0-stable",
     "fernandooliveira/moodle-block_marking_manager": "dev-master",
-    "moodleuulm/moodle-block_course_overview_campus": "dev-master#8272e1f",
+    "moodleuulm/moodle-block_course_overview_campus": "dev-master#80a3531",
     "hipjea/moodle-block_studentstracker": "dev-master",
     "marxjohnson/moodle-block_accessibility": "dev-master",
     "deraadt/moodle-block_progress": "dev-master",
     "deraadt/moodle-block_completion_progress": "dev-master",
-    "remotelearner/moodle-mod_questionnaire": "dev-master#9d061cb",
+    "remotelearner/moodle-mod_questionnaire": "dev-master#b4c2b0b",
+    "michaelmeneses/moodle-local_forcecpf": "dev-master",
+    "markn86/moodle-mod_customcert": "v3.2.11",
     "gjb2048/moodle-format_grid": "V3.0.1.2",
     "danmarsden/moodle-mod_attendance": "dev-MOODLE_30_STABLE",
     "danmarsden/moodle-block_attendance": "dev-MOODLE_28_STABLE",
     "brandaorodrigo/moodle-format_buttons": "dev-master",
     "brandaorodrigo/moodle-format_board": "dev-master",
     "bdaloukas/moodle-mod_game": "dev-MOODLE_20_STABLE",
-    "moodle/moodle": "dev-MOODLE_30_STABLE"
+    "moodle/moodle": "dev-MOODLE_32_STABLE#0581a9b"
   },
   "extra": {
     "installerdir": "moodle",

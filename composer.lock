@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "35e60f570780cb823170f9dddc79d64b",
+    "content-hash": "1d9c7bd6f7407cdb4bac4b71d3e08596",
     "packages": [
         {
             "name": "andrewnicols/moodle-atto_fontsize",
@@ -491,6 +491,33 @@
             "time": "2017-07-21 12:25:40"
         },
         {
+            "name": "markn86/moodle-mod_customcert",
+            "version": "v3.2.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/markn86/moodle-mod_customcert.git",
+                "reference": "03d6b126283f72c8d6b30e9705003576dfc4a5af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/markn86/moodle-mod_customcert/zipball/03d6b126283f72c8d6b30e9705003576dfc4a5af",
+                "reference": "03d6b126283f72c8d6b30e9705003576dfc4a5af",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-mod",
+            "extra": {
+                "installer-name": "customcert"
+            },
+            "support": {
+                "source": "https://github.com/markn86/moodle-mod_customcert/tree/v3.2.11",
+                "issues": "https://github.com/markn86/moodle-mod_customcert/issues"
+            },
+            "time": "2017-07-03T04:31:16+00:00"
+        },
+        {
             "name": "marxjohnson/moodle-block_accessibility",
             "version": "dev-master",
             "source": {
@@ -543,29 +570,61 @@
             "time": "2017-07-21 12:05:07"
         },
         {
-            "name": "moodle/moodle",
-            "version": "dev-MOODLE_30_STABLE",
+            "name": "michaelmeneses/moodle-local_forcecpf",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/moodle/moodle.git",
-                "reference": "0bd0ee444a07818fc495c95697ea1ec1a6abeefb"
+                "url": "https://github.com/michaelmeneses/moodle-local_forcecpf.git",
+                "reference": "81d9b8b3b5595e5606986e719f8f8a64e0921195"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moodle/moodle/zipball/0bd0ee444a07818fc495c95697ea1ec1a6abeefb",
-                "reference": "0bd0ee444a07818fc495c95697ea1ec1a6abeefb",
+                "url": "https://api.github.com/repos/michaelmeneses/moodle-local_forcecpf/zipball/81d9b8b3b5595e5606986e719f8f8a64e0921195",
+                "reference": "81d9b8b3b5595e5606986e719f8f8a64e0921195",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-local",
+            "extra": {
+                "installer-name": "forcecpf"
+            },
+            "support": {
+                "source": "https://github.com/michaelmeneses/moodle-local_forcecpf/tree/1.1",
+                "issues": "https://github.com/michaelmeneses/moodle-local_forcecpf/issues"
+            },
+            "time": "2017-07-20 22:47:09"
+        },
+        {
+            "name": "moodle/moodle",
+            "version": "dev-MOODLE_32_STABLE",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/moodle/moodle.git",
+                "reference": "0581a9b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/moodle/moodle/zipball/0581a9b",
+                "reference": "0581a9b",
                 "shasum": ""
             },
             "require-dev": {
-                "moodlehq/behat-extension": "1.30.2",
+                "moodlehq/behat-extension": "3.32.5",
                 "phpunit/dbunit": "1.4.*",
-                "phpunit/phpunit": "4.8.*"
+                "phpunit/phpunit": "5.5.*"
             },
-            "type": "library",
+            "type": "project",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "Moodle - the world's open source learning platform",
+            "homepage": "https://moodle.org",
             "support": {
-                "source": "https://github.com/moodle/moodle/tree/v3.0.10"
+                "source": "https://github.com/moodle/moodle/tree/MOODLE_32_STABLE"
             },
-            "time": "2017-05-07 19:32:44"
+            "time": "2017-07-20 12:20:50"
         },
         {
             "name": "moodleuulm/moodle-atto_styles",
@@ -573,12 +632,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/michaelmeneses/moodle-atto_styles.git",
-                "reference": "6f8c11f"
+                "reference": "21dff25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/michaelmeneses/moodle-atto_styles/zipball/6f8c11f",
-                "reference": "6f8c11f",
+                "url": "https://api.github.com/repos/michaelmeneses/moodle-atto_styles/zipball/21dff25",
+                "reference": "21dff25",
                 "shasum": ""
             },
             "require": {
@@ -591,7 +650,7 @@
             "support": {
                 "source": "https://github.com/michaelmeneses/moodle-atto_styles/tree/master"
             },
-            "time": "2016-05-26 21:24:07"
+            "time": "2017-06-30 21:20:59"
         },
         {
             "name": "moodleuulm/moodle-block_course_overview_campus",
@@ -599,12 +658,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/michaelmeneses/moodle-block_course_overview_campus.git",
-                "reference": "8272e1f"
+                "reference": "80a3531"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/michaelmeneses/moodle-block_course_overview_campus/zipball/8272e1f",
-                "reference": "8272e1f",
+                "url": "https://api.github.com/repos/michaelmeneses/moodle-block_course_overview_campus/zipball/80a3531",
+                "reference": "80a3531",
                 "shasum": ""
             },
             "require": {
@@ -617,7 +676,7 @@
             "support": {
                 "source": "https://github.com/michaelmeneses/moodle-block_course_overview_campus/tree/master"
             },
-            "time": "2016-06-14 19:22:27"
+            "time": "2017-06-30 21:32:01"
         },
         {
             "name": "ndunand/moodle-atto_morebackcolors",
@@ -677,12 +736,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/remotelearner/moodle-mod_questionnaire.git",
-                "reference": "9d061cb"
+                "reference": "b4c2b0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/remotelearner/moodle-mod_questionnaire/zipball/9d061cb",
-                "reference": "9d061cb",
+                "url": "https://api.github.com/repos/remotelearner/moodle-mod_questionnaire/zipball/b4c2b0b",
+                "reference": "b4c2b0b",
                 "shasum": ""
             },
             "require": {
@@ -696,7 +755,7 @@
                 "source": "https://github.com/remotelearner/moodle-mod_questionnaire/tree/master",
                 "issues": "https://github.com/remotelearner/moodle-mod_questionnaire/issues"
             },
-            "time": "2017-03-29 15:37:28"
+            "time": "2017-05-18 16:44:54"
         },
         {
             "name": "syxton/moodle-tool_coursearchiver",
@@ -746,6 +805,7 @@
         "deraadt/moodle-block_progress": 20,
         "deraadt/moodle-block_completion_progress": 20,
         "remotelearner/moodle-mod_questionnaire": 20,
+        "michaelmeneses/moodle-local_forcecpf": 20,
         "danmarsden/moodle-mod_attendance": 20,
         "danmarsden/moodle-block_attendance": 20,
         "brandaorodrigo/moodle-format_buttons": 20,

@@ -4,45 +4,753 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0348d26f8598e75f4c9e523d8735ad0a",
-    "content-hash": "407cdc78f76c2ad9380643fc38f07745",
+    "content-hash": "35e60f570780cb823170f9dddc79d64b",
     "packages": [
         {
-            "name": "moodle/moodle",
-            "version": "dev-MOODLE_33_STABLE",
+            "name": "andrewnicols/moodle-atto_fontsize",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/moodle/moodle.git",
-                "reference": "cccb1a6d21c057903e50c68d10e55789dfe36e56"
+                "url": "https://github.com/michaelmeneses/moodle-atto_fontsize.git",
+                "reference": "d9436fdfdb9ca77f02215b553f4c23396dfd5d44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moodle/moodle/zipball/cccb1a6d21c057903e50c68d10e55789dfe36e56",
-                "reference": "cccb1a6d21c057903e50c68d10e55789dfe36e56",
+                "url": "https://api.github.com/repos/michaelmeneses/moodle-atto_fontsize/zipball/d9436fdfdb9ca77f02215b553f4c23396dfd5d44",
+                "reference": "d9436fdfdb9ca77f02215b553f4c23396dfd5d44",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-atto",
+            "extra": {
+                "installer-name": "fontsize"
+            },
+            "support": {
+                "source": "https://github.com/michaelmeneses/moodle-atto_fontsize/tree/master"
+            },
+            "time": "2017-07-21 13:05:08"
+        },
+        {
+            "name": "aspiredu/moodle-local_aspiredu",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michaelmeneses/moodle-local_aspiredu.git",
+                "reference": "423c008d1c65059ed2a21b33bd4bc9c4ad191f21"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michaelmeneses/moodle-local_aspiredu/zipball/423c008d1c65059ed2a21b33bd4bc9c4ad191f21",
+                "reference": "423c008d1c65059ed2a21b33bd4bc9c4ad191f21",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-local",
+            "extra": {
+                "installer-name": "aspiredu"
+            },
+            "support": {
+                "source": "https://github.com/michaelmeneses/moodle-local_aspiredu/tree/master"
+            },
+            "time": "2017-07-21 12:05:09"
+        },
+        {
+            "name": "bdaloukas/moodle-mod_game",
+            "version": "dev-MOODLE_20_STABLE",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bdaloukas/moodle-mod_game.git",
+                "reference": "c833a32441b76b090b4c8175df5d9aa45f2003c7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bdaloukas/moodle-mod_game/zipball/c833a32441b76b090b4c8175df5d9aa45f2003c7",
+                "reference": "c833a32441b76b090b4c8175df5d9aa45f2003c7",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-mod",
+            "extra": {
+                "installer-name": "game"
+            },
+            "support": {
+                "source": "https://github.com/bdaloukas/moodle-mod_game/tree/MOODLE_20_STABLE",
+                "issues": "https://github.com/bdaloukas/moodle-mod_game/issues"
+            },
+            "time": "2017-07-19 05:43:31"
+        },
+        {
+            "name": "brandaorodrigo/moodle-format_board",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brandaorodrigo/moodle-format_board.git",
+                "reference": "26f81b4e87b874efb4cc7ccfb84e77b1ee1cdeb0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brandaorodrigo/moodle-format_board/zipball/26f81b4e87b874efb4cc7ccfb84e77b1ee1cdeb0",
+                "reference": "26f81b4e87b874efb4cc7ccfb84e77b1ee1cdeb0",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-format",
+            "extra": {
+                "installer-name": "board"
+            },
+            "support": {
+                "source": "https://github.com/brandaorodrigo/moodle-format_board/tree/master",
+                "issues": "https://github.com/brandaorodrigo/moodle-format_board/issues"
+            },
+            "time": "2017-06-28 20:44:19"
+        },
+        {
+            "name": "brandaorodrigo/moodle-format_buttons",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brandaorodrigo/moodle-format_buttons.git",
+                "reference": "755e8916be8c950e0e756f0d4d4949b423253488"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brandaorodrigo/moodle-format_buttons/zipball/755e8916be8c950e0e756f0d4d4949b423253488",
+                "reference": "755e8916be8c950e0e756f0d4d4949b423253488",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-format",
+            "extra": {
+                "installer-name": "buttons"
+            },
+            "support": {
+                "source": "https://github.com/brandaorodrigo/moodle-format_buttons/tree/master",
+                "issues": "https://github.com/brandaorodrigo/moodle-format_buttons/issues"
+            },
+            "time": "2017-07-14 16:27:19"
+        },
+        {
+            "name": "composer/installers",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "79ad876c7498c0bbfe7eed065b8651c93bfd6045"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/79ad876c7498c0bbfe7eed065b8651c93bfd6045",
+                "reference": "79ad876c7498c0bbfe7eed065b8651c93bfd6045",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Eliasis",
+                "Hurad",
+                "ImageCMS",
+                "Kanboard",
+                "MODX Evo",
+                "Mautic",
+                "Maya",
+                "OXID",
+                "Plentymarkets",
+                "Porto",
+                "RadPHP",
+                "SMF",
+                "Thelia",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "itop",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lavalite",
+                "lithium",
+                "magento",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "moodle",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "sydes",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "time": "2017-04-24T06:37:16+00:00"
+        },
+        {
+            "name": "danmarsden/moodle-block_attendance",
+            "version": "dev-MOODLE_28_STABLE",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/danmarsden/moodle-block_attendance.git",
+                "reference": "23c026ab71b63e5b7fc8cc57256c6537db809b40"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/danmarsden/moodle-block_attendance/zipball/23c026ab71b63e5b7fc8cc57256c6537db809b40",
+                "reference": "23c026ab71b63e5b7fc8cc57256c6537db809b40",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-block",
+            "extra": {
+                "installer-name": "attendance"
+            },
+            "support": {
+                "source": "https://github.com/danmarsden/moodle-block_attendance/tree/MOODLE_24_STABLE",
+                "issues": "https://github.com/danmarsden/moodle-block_attendance/issues"
+            },
+            "time": "2015-07-13 03:20:16"
+        },
+        {
+            "name": "danmarsden/moodle-mod_attendance",
+            "version": "dev-MOODLE_30_STABLE",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/danmarsden/moodle-mod_attendance.git",
+                "reference": "58f93889d4c07b16ca6b6d5c2a636e3b132cddbe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/danmarsden/moodle-mod_attendance/zipball/58f93889d4c07b16ca6b6d5c2a636e3b132cddbe",
+                "reference": "58f93889d4c07b16ca6b6d5c2a636e3b132cddbe",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-mod",
+            "extra": {
+                "installer-name": "attendance"
+            },
+            "support": {
+                "source": "https://github.com/danmarsden/moodle-mod_attendance/tree/MOODLE_30_STABLE",
+                "issues": "https://github.com/danmarsden/moodle-mod_attendance/issues"
+            },
+            "time": "2016-12-13 19:45:49"
+        },
+        {
+            "name": "deraadt/moodle-block_completion_progress",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michaelmeneses/moodle-block_completion_progress.git",
+                "reference": "56976383e50d1f0b5f1ae794f1babaaa8addbdd5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michaelmeneses/moodle-block_completion_progress/zipball/56976383e50d1f0b5f1ae794f1babaaa8addbdd5",
+                "reference": "56976383e50d1f0b5f1ae794f1babaaa8addbdd5",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-block",
+            "extra": {
+                "installer-name": "completion_progress"
+            },
+            "support": {
+                "source": "https://github.com/michaelmeneses/moodle-block_completion_progress/tree/master"
+            },
+            "time": "2017-07-21 12:47:17"
+        },
+        {
+            "name": "deraadt/moodle-block_progress",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michaelmeneses/Moodle-block_progress.git",
+                "reference": "c86e966a8f864c79657e564bcd19704c6ebd0f9e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michaelmeneses/Moodle-block_progress/zipball/c86e966a8f864c79657e564bcd19704c6ebd0f9e",
+                "reference": "c86e966a8f864c79657e564bcd19704c6ebd0f9e",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-block",
+            "extra": {
+                "installer-name": "progress"
+            },
+            "support": {
+                "source": "https://github.com/michaelmeneses/Moodle-block_progress/tree/master"
+            },
+            "time": "2017-07-21 12:47:15"
+        },
+        {
+            "name": "fernandooliveira/moodle-block_marking_manager",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michaelmeneses/moodle-block_marking_manager.git",
+                "reference": "8fb312457e3786c1c0c70acac554fa1e36583086"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michaelmeneses/moodle-block_marking_manager/zipball/8fb312457e3786c1c0c70acac554fa1e36583086",
+                "reference": "8fb312457e3786c1c0c70acac554fa1e36583086",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-block",
+            "extra": {
+                "installer-name": "fn_marking"
+            },
+            "support": {
+                "source": "https://github.com/michaelmeneses/moodle-block_marking_manager/tree/master"
+            },
+            "time": "2017-07-21 15:20:29"
+        },
+        {
+            "name": "gjb2048/moodle-format_grid",
+            "version": "V3.0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gjb2048/moodle-format_grid.git",
+                "reference": "31bd2b93b3ec20f75c3351eb0abaf30ce0504081"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gjb2048/moodle-format_grid/zipball/31bd2b93b3ec20f75c3351eb0abaf30ce0504081",
+                "reference": "31bd2b93b3ec20f75c3351eb0abaf30ce0504081",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-format",
+            "extra": {
+                "installer-name": "grid"
+            },
+            "support": {
+                "source": "https://github.com/gjb2048/moodle-format_grid/tree/V3.0.1.2",
+                "issues": "https://github.com/gjb2048/moodle-format_grid/issues"
+            },
+            "time": "2016-12-01T19:23:04+00:00"
+        },
+        {
+            "name": "h5p/h5p-moodle-plugin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michaelmeneses/h5p-moodle-plugin.git",
+                "reference": "4104109d8c1f3825cec44e952f9dc2f36c9c1dfd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michaelmeneses/h5p-moodle-plugin/zipball/4104109d8c1f3825cec44e952f9dc2f36c9c1dfd",
+                "reference": "4104109d8c1f3825cec44e952f9dc2f36c9c1dfd",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-mod",
+            "extra": {
+                "installer-name": "hvp"
+            },
+            "support": {
+                "source": "https://github.com/michaelmeneses/h5p-moodle-plugin/tree/master"
+            },
+            "time": "2017-07-21 12:17:33"
+        },
+        {
+            "name": "hipjea/moodle-block_studentstracker",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michaelmeneses/moodle-block_studentstracker.git",
+                "reference": "01d5a5c7844f1da3749fbaffe0491a76e6e378ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michaelmeneses/moodle-block_studentstracker/zipball/01d5a5c7844f1da3749fbaffe0491a76e6e378ca",
+                "reference": "01d5a5c7844f1da3749fbaffe0491a76e6e378ca",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-block",
+            "extra": {
+                "installer-name": "studentstracker"
+            },
+            "support": {
+                "source": "https://github.com/michaelmeneses/moodle-block_studentstracker/tree/master"
+            },
+            "time": "2017-07-21 12:31:31"
+        },
+        {
+            "name": "marceloschmitt/moodle-block_analytics_graphs",
+            "version": "dev-4.0-stable",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michaelmeneses/moodle-block_analytics_graphs.git",
+                "reference": "3ff0974c8be7d34be6ed85f82ace25e40b45feec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michaelmeneses/moodle-block_analytics_graphs/zipball/3ff0974c8be7d34be6ed85f82ace25e40b45feec",
+                "reference": "3ff0974c8be7d34be6ed85f82ace25e40b45feec",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-block",
+            "extra": {
+                "installer-name": "analytics_graphs"
+            },
+            "support": {
+                "source": "https://github.com/michaelmeneses/moodle-block_analytics_graphs/tree/4.0-stable"
+            },
+            "time": "2017-07-21 12:25:40"
+        },
+        {
+            "name": "marxjohnson/moodle-block_accessibility",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michaelmeneses/moodle-block_accessibility.git",
+                "reference": "0c2c9f88e1ca53221ac9329b6e8ebce759ac6269"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michaelmeneses/moodle-block_accessibility/zipball/0c2c9f88e1ca53221ac9329b6e8ebce759ac6269",
+                "reference": "0c2c9f88e1ca53221ac9329b6e8ebce759ac6269",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-block",
+            "extra": {
+                "installer-name": "accessibility"
+            },
+            "support": {
+                "source": "https://github.com/michaelmeneses/moodle-block_accessibility/tree/master"
+            },
+            "time": "2017-07-21 12:44:14"
+        },
+        {
+            "name": "michael-milette/moodle-local_mailtest",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michaelmeneses/moodle-local_mailtest.git",
+                "reference": "93fae1ee035e75e6d91035caf55aa98d74a8d2ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michaelmeneses/moodle-local_mailtest/zipball/93fae1ee035e75e6d91035caf55aa98d74a8d2ba",
+                "reference": "93fae1ee035e75e6d91035caf55aa98d74a8d2ba",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-local",
+            "extra": {
+                "installer-name": "mailtest"
+            },
+            "support": {
+                "source": "https://github.com/michaelmeneses/moodle-local_mailtest/tree/master"
+            },
+            "time": "2017-07-21 12:05:07"
+        },
+        {
+            "name": "moodle/moodle",
+            "version": "dev-MOODLE_30_STABLE",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/moodle/moodle.git",
+                "reference": "0bd0ee444a07818fc495c95697ea1ec1a6abeefb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/moodle/moodle/zipball/0bd0ee444a07818fc495c95697ea1ec1a6abeefb",
+                "reference": "0bd0ee444a07818fc495c95697ea1ec1a6abeefb",
                 "shasum": ""
             },
             "require-dev": {
-                "mikey179/vfsstream": "^1.6",
-                "moodlehq/behat-extension": "3.33.1",
+                "moodlehq/behat-extension": "1.30.2",
                 "phpunit/dbunit": "1.4.*",
-                "phpunit/phpunit": "5.5.*"
+                "phpunit/phpunit": "4.8.*"
             },
-            "type": "project",
-            "license": [
-                "GPL-3.0"
-            ],
-            "description": "Moodle - the world's open source learning platform",
-            "homepage": "https://moodle.org",
+            "type": "library",
             "support": {
-                "source": "https://github.com/moodle/moodle/tree/MOODLE_33_STABLE"
+                "source": "https://github.com/moodle/moodle/tree/v3.0.10"
             },
-            "time": "2017-06-22 14:40:49"
+            "time": "2017-05-07 19:32:44"
+        },
+        {
+            "name": "moodleuulm/moodle-atto_styles",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michaelmeneses/moodle-atto_styles.git",
+                "reference": "6f8c11f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michaelmeneses/moodle-atto_styles/zipball/6f8c11f",
+                "reference": "6f8c11f",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-atto",
+            "extra": {
+                "installer-name": "styles"
+            },
+            "support": {
+                "source": "https://github.com/michaelmeneses/moodle-atto_styles/tree/master"
+            },
+            "time": "2016-05-26 21:24:07"
+        },
+        {
+            "name": "moodleuulm/moodle-block_course_overview_campus",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michaelmeneses/moodle-block_course_overview_campus.git",
+                "reference": "8272e1f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michaelmeneses/moodle-block_course_overview_campus/zipball/8272e1f",
+                "reference": "8272e1f",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-block",
+            "extra": {
+                "installer-name": "course_overview_campus"
+            },
+            "support": {
+                "source": "https://github.com/michaelmeneses/moodle-block_course_overview_campus/tree/master"
+            },
+            "time": "2016-06-14 19:22:27"
+        },
+        {
+            "name": "ndunand/moodle-atto_morebackcolors",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michaelmeneses/moodle-atto_morebackcolors.git",
+                "reference": "51b445bbd6807af378e6a0821c3f378cca73b2d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michaelmeneses/moodle-atto_morebackcolors/zipball/51b445bbd6807af378e6a0821c3f378cca73b2d5",
+                "reference": "51b445bbd6807af378e6a0821c3f378cca73b2d5",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-atto",
+            "extra": {
+                "installer-name": "morebackcolors"
+            },
+            "support": {
+                "source": "https://github.com/michaelmeneses/moodle-atto_morebackcolors/tree/master"
+            },
+            "time": "2017-07-21 13:05:02"
+        },
+        {
+            "name": "ndunand/moodle-tool_mergeusers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michaelmeneses/moodle-tool_mergeusers.git",
+                "reference": "be025c066b526031267af9ca0e56d85c391743b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michaelmeneses/moodle-tool_mergeusers/zipball/be025c066b526031267af9ca0e56d85c391743b8",
+                "reference": "be025c066b526031267af9ca0e56d85c391743b8",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-tool",
+            "extra": {
+                "installer-name": "mergeusers"
+            },
+            "support": {
+                "source": "https://github.com/michaelmeneses/moodle-tool_mergeusers/tree/master"
+            },
+            "time": "2017-07-21 15:32:00"
+        },
+        {
+            "name": "remotelearner/moodle-mod_questionnaire",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/remotelearner/moodle-mod_questionnaire.git",
+                "reference": "9d061cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/remotelearner/moodle-mod_questionnaire/zipball/9d061cb",
+                "reference": "9d061cb",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-mod",
+            "extra": {
+                "installer-name": "questionnaire"
+            },
+            "support": {
+                "source": "https://github.com/remotelearner/moodle-mod_questionnaire/tree/master",
+                "issues": "https://github.com/remotelearner/moodle-mod_questionnaire/issues"
+            },
+            "time": "2017-03-29 15:37:28"
+        },
+        {
+            "name": "syxton/moodle-tool_coursearchiver",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Syxton/moodle-tool_coursearchiver.git",
+                "reference": "556a82eff1ed0c665a728447bb65a0783dda1a52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Syxton/moodle-tool_coursearchiver/zipball/556a82eff1ed0c665a728447bb65a0783dda1a52",
+                "reference": "556a82eff1ed0c665a728447bb65a0783dda1a52",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-tool",
+            "extra": {
+                "installer-name": "coursearchiver"
+            },
+            "support": {
+                "source": "https://github.com/Syxton/moodle-tool_coursearchiver/tree/2017072100",
+                "issues": "https://github.com/Syxton/moodle-tool_coursearchiver/issues"
+            },
+            "time": "2017-07-21 13:55:07"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "andrewnicols/moodle-atto_fontsize": 20,
+        "moodleuulm/moodle-atto_styles": 20,
+        "ndunand/moodle-atto_morebackcolors": 20,
+        "ndunand/moodle-tool_mergeusers": 20,
+        "syxton/moodle-tool_coursearchiver": 20,
+        "h5p/h5p-moodle-plugin": 20,
+        "michael-milette/moodle-local_mailtest": 20,
+        "aspiredu/moodle-local_aspiredu": 20,
+        "marceloschmitt/moodle-block_analytics_graphs": 20,
+        "fernandooliveira/moodle-block_marking_manager": 20,
+        "moodleuulm/moodle-block_course_overview_campus": 20,
+        "hipjea/moodle-block_studentstracker": 20,
+        "marxjohnson/moodle-block_accessibility": 20,
+        "deraadt/moodle-block_progress": 20,
+        "deraadt/moodle-block_completion_progress": 20,
+        "remotelearner/moodle-mod_questionnaire": 20,
+        "danmarsden/moodle-mod_attendance": 20,
+        "danmarsden/moodle-block_attendance": 20,
+        "brandaorodrigo/moodle-format_buttons": 20,
+        "brandaorodrigo/moodle-format_board": 20,
+        "bdaloukas/moodle-mod_game": 20,
         "moodle/moodle": 20
     },
     "prefer-stable": false,

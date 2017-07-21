@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "35e60f570780cb823170f9dddc79d64b",
+    "content-hash": "abcdeefec266820deea6f248bd928c2d",
     "packages": [
         {
             "name": "andrewnicols/moodle-atto_fontsize",
@@ -255,16 +255,16 @@
         },
         {
             "name": "danmarsden/moodle-block_attendance",
-            "version": "dev-MOODLE_28_STABLE",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/danmarsden/moodle-block_attendance.git",
-                "reference": "23c026ab71b63e5b7fc8cc57256c6537db809b40"
+                "reference": "5708b92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/danmarsden/moodle-block_attendance/zipball/23c026ab71b63e5b7fc8cc57256c6537db809b40",
-                "reference": "23c026ab71b63e5b7fc8cc57256c6537db809b40",
+                "url": "https://api.github.com/repos/danmarsden/moodle-block_attendance/zipball/5708b92",
+                "reference": "5708b92",
                 "shasum": ""
             },
             "require": {
@@ -275,10 +275,10 @@
                 "installer-name": "attendance"
             },
             "support": {
-                "source": "https://github.com/danmarsden/moodle-block_attendance/tree/MOODLE_24_STABLE",
+                "source": "https://github.com/danmarsden/moodle-block_attendance/tree/master",
                 "issues": "https://github.com/danmarsden/moodle-block_attendance/issues"
             },
-            "time": "2015-07-13 03:20:16"
+            "time": "2016-05-09 09:28:24"
         },
         {
             "name": "danmarsden/moodle-mod_attendance",
@@ -387,16 +387,16 @@
         },
         {
             "name": "gjb2048/moodle-format_grid",
-            "version": "V3.0.1.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/gjb2048/moodle-format_grid.git",
-                "reference": "31bd2b93b3ec20f75c3351eb0abaf30ce0504081"
+                "reference": "e8d7a1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gjb2048/moodle-format_grid/zipball/31bd2b93b3ec20f75c3351eb0abaf30ce0504081",
-                "reference": "31bd2b93b3ec20f75c3351eb0abaf30ce0504081",
+                "url": "https://api.github.com/repos/gjb2048/moodle-format_grid/zipball/e8d7a1e",
+                "reference": "e8d7a1e",
                 "shasum": ""
             },
             "require": {
@@ -407,10 +407,10 @@
                 "installer-name": "grid"
             },
             "support": {
-                "source": "https://github.com/gjb2048/moodle-format_grid/tree/V3.0.1.2",
+                "source": "https://github.com/gjb2048/moodle-format_grid/tree/V3.3.0.1",
                 "issues": "https://github.com/gjb2048/moodle-format_grid/issues"
             },
-            "time": "2016-12-01T19:23:04+00:00"
+            "time": "2016-03-04 13:20:54"
         },
         {
             "name": "h5p/h5p-moodle-plugin",
@@ -489,6 +489,33 @@
                 "source": "https://github.com/michaelmeneses/moodle-block_analytics_graphs/tree/4.0-stable"
             },
             "time": "2017-07-21 12:25:40"
+        },
+        {
+            "name": "markn86/moodle-mod_customcert",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/markn86/moodle-mod_customcert.git",
+                "reference": "5a7b963a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/markn86/moodle-mod_customcert/zipball/5a7b963a",
+                "reference": "5a7b963a",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-mod",
+            "extra": {
+                "installer-name": "customcert"
+            },
+            "support": {
+                "source": "https://github.com/markn86/moodle-mod_customcert/tree/MOODLE_33_STABLE",
+                "issues": "https://github.com/markn86/moodle-mod_customcert/issues"
+            },
+            "time": "2016-03-22 04:39:12"
         },
         {
             "name": "marxjohnson/moodle-block_accessibility",
@@ -724,6 +751,32 @@
                 "issues": "https://github.com/Syxton/moodle-tool_coursearchiver/issues"
             },
             "time": "2017-07-21 13:55:07"
+        },
+        {
+            "name": "vfremaux/moodle-block_page_module",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michaelmeneses/moodle-block_page_module.git",
+                "reference": "48a63cb0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michaelmeneses/moodle-block_page_module/zipball/48a63cb0",
+                "reference": "48a63cb0",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "moodle-block",
+            "extra": {
+                "installer-name": "page_module"
+            },
+            "support": {
+                "source": "https://github.com/michaelmeneses/moodle-block_page_module/tree/master"
+            },
+            "time": "2017-04-12 12:32:38"
         }
     ],
     "packages-dev": [],
@@ -738,6 +791,7 @@
         "h5p/h5p-moodle-plugin": 20,
         "michael-milette/moodle-local_mailtest": 20,
         "aspiredu/moodle-local_aspiredu": 20,
+        "vfremaux/moodle-block_page_module": 20,
         "marceloschmitt/moodle-block_analytics_graphs": 20,
         "fernandooliveira/moodle-block_marking_manager": 20,
         "moodleuulm/moodle-block_course_overview_campus": 20,
@@ -745,7 +799,9 @@
         "marxjohnson/moodle-block_accessibility": 20,
         "deraadt/moodle-block_progress": 20,
         "deraadt/moodle-block_completion_progress": 20,
+        "markn86/moodle-mod_customcert": 20,
         "remotelearner/moodle-mod_questionnaire": 20,
+        "gjb2048/moodle-format_grid": 20,
         "danmarsden/moodle-mod_attendance": 20,
         "danmarsden/moodle-block_attendance": 20,
         "brandaorodrigo/moodle-format_buttons": 20,

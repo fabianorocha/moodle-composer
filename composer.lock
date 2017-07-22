@@ -4,6 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+    "hash": "ff88c265a5e7b0634361aaa970634e42",
     "content-hash": "296dc7e2f08d2d195d106eaa0f88fdba",
     "packages": [
         {
@@ -251,7 +252,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2017-04-24T06:37:16+00:00"
+            "time": "2017-04-24 06:37:16"
         },
         {
             "name": "danmarsden/moodle-block_attendance",
@@ -263,7 +264,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/danmarsden/moodle-block_attendance/zipball/5708b92",
+                "url": "https://api.github.com/repos/danmarsden/moodle-block_attendance/zipball/eb4f4f7e1766fca72b73fa4fdd4c98284788dc35",
                 "reference": "5708b92",
                 "shasum": ""
             },
@@ -410,7 +411,7 @@
                 "source": "https://github.com/gjb2048/moodle-format_grid/tree/V3.2.1.3",
                 "issues": "https://github.com/gjb2048/moodle-format_grid/issues"
             },
-            "time": "2017-06-23T12:38:11+00:00"
+            "time": "2017-06-23 12:38:11"
         },
         {
             "name": "h5p/h5p-moodle-plugin",
@@ -500,7 +501,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/markn86/moodle-mod_customcert/zipball/f3f9fef",
+                "url": "https://api.github.com/repos/markn86/moodle-mod_customcert/zipball/a5bcc985ee39248ffd44e2cbce84ffa8d588b037",
                 "reference": "f3f9fef",
                 "shasum": ""
             },
@@ -579,7 +580,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moodle/moodle/zipball/0581a9b",
+                "url": "https://api.github.com/repos/moodle/moodle/zipball/0581a9be051937081b6ab6bb8a47d574324d5722",
                 "reference": "0581a9b",
                 "shasum": ""
             },
@@ -609,7 +610,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/michaelmeneses/moodle-atto_styles/zipball/21dff25",
+                "url": "https://api.github.com/repos/michaelmeneses/moodle-atto_styles/zipball/4a0338b1abdb1519d5362fc31a2c182bbf650994",
                 "reference": "21dff25",
                 "shasum": ""
             },
@@ -635,7 +636,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/michaelmeneses/moodle-block_course_overview_campus/zipball/80a3531",
+                "url": "https://api.github.com/repos/michaelmeneses/moodle-block_course_overview_campus/zipball/eb597479069f54c41356ec4adbcfbdb1c71a7a68",
                 "reference": "80a3531",
                 "shasum": ""
             },
@@ -713,7 +714,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/remotelearner/moodle-mod_questionnaire/zipball/b4c2b0b",
+                "url": "https://api.github.com/repos/remotelearner/moodle-mod_questionnaire/zipball/16ca99eb5298ca79b3eb8edd76ea968acb823b79",
                 "reference": "b4c2b0b",
                 "shasum": ""
             },
@@ -767,7 +768,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/michaelmeneses/moodle-block_page_module/zipball/48a63cb0",
+                "url": "https://api.github.com/repos/michaelmeneses/moodle-block_page_module/zipball/a613f262f27127db244aef16bc3286d1c1dc8d9b",
                 "reference": "48a63cb0",
                 "shasum": ""
             },

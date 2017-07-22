@@ -75,7 +75,7 @@
     },
     {
       "type": "vcs",
-      "url": "https://github.com/michaelmeneses/moodle-block_page_module.git"
+      "url": "https://github.com/michaelmeneses/moodle-mod_customcert.git"
     }
   ],
   "require": {
@@ -94,7 +94,7 @@
     "marxjohnson/moodle-block_accessibility": "dev-master",
     "deraadt/moodle-block_progress": "dev-master",
     "deraadt/moodle-block_completion_progress": "dev-master",
-    "markn86/moodle-mod_customcert": "dev-master#5a7b963a",
+    "markn86/moodle-mod_customcert": "dev-MOODLE_29_STABLE",
     "remotelearner/moodle-mod_questionnaire": "dev-master#9d061cb",
     "gjb2048/moodle-format_grid": "dev-master#e8d7a1e",
     "danmarsden/moodle-mod_attendance": "dev-MOODLE_30_STABLE",

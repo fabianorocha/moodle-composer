@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "abcdeefec266820deea6f248bd928c2d",
+    "hash": "5e5c8faf54f63539ec760c1a7e772fce",
+    "content-hash": "a9dbba98bc4b0c2f6f4e5b41df8532cf",
     "packages": [
         {
             "name": "andrewnicols/moodle-atto_fontsize",
@@ -251,7 +252,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2017-04-24T06:37:16+00:00"
+            "time": "2017-04-24 06:37:16"
         },
         {
             "name": "danmarsden/moodle-block_attendance",
@@ -263,7 +264,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/danmarsden/moodle-block_attendance/zipball/5708b92",
+                "url": "https://api.github.com/repos/danmarsden/moodle-block_attendance/zipball/eb4f4f7e1766fca72b73fa4fdd4c98284788dc35",
                 "reference": "5708b92",
                 "shasum": ""
             },
@@ -395,7 +396,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gjb2048/moodle-format_grid/zipball/e8d7a1e",
+                "url": "https://api.github.com/repos/gjb2048/moodle-format_grid/zipball/a214229aa0e292cace468fb828052bc219874c64",
                 "reference": "e8d7a1e",
                 "shasum": ""
             },
@@ -492,16 +493,16 @@
         },
         {
             "name": "markn86/moodle-mod_customcert",
-            "version": "dev-master",
+            "version": "dev-MOODLE_29_STABLE",
             "source": {
                 "type": "git",
-                "url": "https://github.com/markn86/moodle-mod_customcert.git",
-                "reference": "5a7b963a"
+                "url": "https://github.com/michaelmeneses/moodle-mod_customcert.git",
+                "reference": "ebe605c91669c0b3338ef36c7f976f9b7e3e666a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/markn86/moodle-mod_customcert/zipball/5a7b963a",
-                "reference": "5a7b963a",
+                "url": "https://api.github.com/repos/michaelmeneses/moodle-mod_customcert/zipball/ebe605c91669c0b3338ef36c7f976f9b7e3e666a",
+                "reference": "ebe605c91669c0b3338ef36c7f976f9b7e3e666a",
                 "shasum": ""
             },
             "require": {
@@ -512,10 +513,9 @@
                 "installer-name": "customcert"
             },
             "support": {
-                "source": "https://github.com/markn86/moodle-mod_customcert/tree/MOODLE_33_STABLE",
-                "issues": "https://github.com/markn86/moodle-mod_customcert/issues"
+                "source": "https://github.com/michaelmeneses/moodle-mod_customcert/tree/MOODLE_29_STABLE"
             },
-            "time": "2016-03-22 04:39:12"
+            "time": "2017-07-22 16:40:29"
         },
         {
             "name": "marxjohnson/moodle-block_accessibility",
@@ -604,7 +604,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/michaelmeneses/moodle-atto_styles/zipball/6f8c11f",
+                "url": "https://api.github.com/repos/michaelmeneses/moodle-atto_styles/zipball/4a0338b1abdb1519d5362fc31a2c182bbf650994",
                 "reference": "6f8c11f",
                 "shasum": ""
             },
@@ -630,7 +630,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/michaelmeneses/moodle-block_course_overview_campus/zipball/8272e1f",
+                "url": "https://api.github.com/repos/michaelmeneses/moodle-block_course_overview_campus/zipball/eb597479069f54c41356ec4adbcfbdb1c71a7a68",
                 "reference": "8272e1f",
                 "shasum": ""
             },
@@ -708,7 +708,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/remotelearner/moodle-mod_questionnaire/zipball/9d061cb",
+                "url": "https://api.github.com/repos/remotelearner/moodle-mod_questionnaire/zipball/16ca99eb5298ca79b3eb8edd76ea968acb823b79",
                 "reference": "9d061cb",
                 "shasum": ""
             },
@@ -751,32 +751,6 @@
                 "issues": "https://github.com/Syxton/moodle-tool_coursearchiver/issues"
             },
             "time": "2017-07-21 13:55:07"
-        },
-        {
-            "name": "vfremaux/moodle-block_page_module",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/michaelmeneses/moodle-block_page_module.git",
-                "reference": "48a63cb0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/michaelmeneses/moodle-block_page_module/zipball/48a63cb0",
-                "reference": "48a63cb0",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "moodle-block",
-            "extra": {
-                "installer-name": "page_module"
-            },
-            "support": {
-                "source": "https://github.com/michaelmeneses/moodle-block_page_module/tree/master"
-            },
-            "time": "2017-04-12 12:32:38"
         }
     ],
     "packages-dev": [],
@@ -791,7 +765,6 @@
         "h5p/h5p-moodle-plugin": 20,
         "michael-milette/moodle-local_mailtest": 20,
         "aspiredu/moodle-local_aspiredu": 20,
-        "vfremaux/moodle-block_page_module": 20,
         "marceloschmitt/moodle-block_analytics_graphs": 20,
         "fernandooliveira/moodle-block_marking_manager": 20,
         "moodleuulm/moodle-block_course_overview_campus": 20,

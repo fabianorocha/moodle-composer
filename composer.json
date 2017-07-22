@@ -72,6 +72,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/michaelmeneses/moodle-block_completion_progress.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/michaelmeneses/moodle-block_page_module.git"
     }
   ],
   "require": {
@@ -83,6 +87,7 @@
     "h5p/h5p-moodle-plugin": "dev-master",
     "michael-milette/moodle-local_mailtest": "dev-master",
     "aspiredu/moodle-local_aspiredu": "dev-master",
+    "vfremaux/moodle-block_page_module": "dev-master#48a63cb0",
     "marceloschmitt/moodle-block_analytics_graphs": "dev-4.0-stable",
     "fernandooliveira/moodle-block_marking_manager": "dev-master",
     "moodleuulm/moodle-block_course_overview_campus": "dev-master#80a3531",
@@ -91,11 +96,10 @@
     "deraadt/moodle-block_progress": "dev-master",
     "deraadt/moodle-block_completion_progress": "dev-master",
     "remotelearner/moodle-mod_questionnaire": "dev-master#b4c2b0b",
-    "michaelmeneses/moodle-local_forcecpf": "dev-master",
     "markn86/moodle-mod_customcert": "v3.2.11",
-    "gjb2048/moodle-format_grid": "V3.0.1.2",
+    "gjb2048/moodle-format_grid": "V3.2.1.3",
     "danmarsden/moodle-mod_attendance": "dev-MOODLE_30_STABLE",
-    "danmarsden/moodle-block_attendance": "dev-MOODLE_28_STABLE",
+    "danmarsden/moodle-block_attendance": "dev-master#5708b92",
     "brandaorodrigo/moodle-format_buttons": "dev-master",
     "brandaorodrigo/moodle-format_board": "dev-master",
     "bdaloukas/moodle-mod_game": "dev-MOODLE_20_STABLE",

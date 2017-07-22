@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f5c71b8475163c1a172ddb00350dbc90",
+    "content-hash": "296dc7e2f08d2d195d106eaa0f88fdba",
     "packages": [
         {
             "name": "andrewnicols/moodle-atto_fontsize",
@@ -492,16 +492,16 @@
         },
         {
             "name": "markn86/moodle-mod_customcert",
-            "version": "v3.2.11",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/markn86/moodle-mod_customcert.git",
-                "reference": "03d6b126283f72c8d6b30e9705003576dfc4a5af"
+                "reference": "f3f9fef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/markn86/moodle-mod_customcert/zipball/03d6b126283f72c8d6b30e9705003576dfc4a5af",
-                "reference": "03d6b126283f72c8d6b30e9705003576dfc4a5af",
+                "url": "https://api.github.com/repos/markn86/moodle-mod_customcert/zipball/f3f9fef",
+                "reference": "f3f9fef",
                 "shasum": ""
             },
             "require": {
@@ -512,10 +512,10 @@
                 "installer-name": "customcert"
             },
             "support": {
-                "source": "https://github.com/markn86/moodle-mod_customcert/tree/v3.2.11",
+                "source": "https://github.com/markn86/moodle-mod_customcert/tree/MOODLE_33_STABLE",
                 "issues": "https://github.com/markn86/moodle-mod_customcert/issues"
             },
-            "time": "2017-07-03T04:31:16+00:00"
+            "time": "2016-12-12 10:48:40"
         },
         {
             "name": "marxjohnson/moodle-block_accessibility",
@@ -805,6 +805,7 @@
         "deraadt/moodle-block_progress": 20,
         "deraadt/moodle-block_completion_progress": 20,
         "remotelearner/moodle-mod_questionnaire": 20,
+        "markn86/moodle-mod_customcert": 20,
         "danmarsden/moodle-mod_attendance": 20,
         "danmarsden/moodle-block_attendance": 20,
         "brandaorodrigo/moodle-format_buttons": 20,

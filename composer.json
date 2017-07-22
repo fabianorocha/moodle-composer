@@ -96,7 +96,7 @@
     "deraadt/moodle-block_progress": "dev-master",
     "deraadt/moodle-block_completion_progress": "dev-master",
     "remotelearner/moodle-mod_questionnaire": "dev-master#b4c2b0b",
-    "markn86/moodle-mod_customcert": "v3.2.11",
+    "markn86/moodle-mod_customcert": "dev-master#f3f9fef",
     "gjb2048/moodle-format_grid": "V3.2.1.3",
     "danmarsden/moodle-mod_attendance": "dev-MOODLE_30_STABLE",
     "danmarsden/moodle-block_attendance": "dev-master#5708b92",

@@ -87,7 +87,6 @@
     "h5p/h5p-moodle-plugin": "dev-master",
     "michael-milette/moodle-local_mailtest": "dev-master",
     "aspiredu/moodle-local_aspiredu": "dev-master",
-    "vfremaux/moodle-block_page_module": "dev-master#48a63cb0",
     "marceloschmitt/moodle-block_analytics_graphs": "dev-4.0-stable",
     "fernandooliveira/moodle-block_marking_manager": "dev-master",
     "moodleuulm/moodle-block_course_overview_campus": "dev-master#8272e1f",
